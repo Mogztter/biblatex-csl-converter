@@ -1,17 +1,7 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-'use strict';
+"use strict";
 
-var _keys = require('babel-runtime/core-js/object/keys');
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _typeof2 = require('babel-runtime/helpers/typeof');
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-var _src = require('../src');
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _src = require("../src");
 
 window.BibLatexParser = _src.BibLatexParser;
 window.BibLatexExporter = _src.BibLatexExporter;
@@ -19,102 +9,7 @@ window.CSLExporter = _src.CSLExporter;
 window.edtfParse = _src.edtfParse;
 window.edtfCheck = _src.edtfCheck;
 
-var printObject = function printObject(object) {
-    var html = '';
-    switch (typeof object === 'undefined' ? 'undefined' : (0, _typeof3.default)(object)) {
-        case 'object':
-            if (object instanceof Array) {
-                html += '[';
-                object.forEach(function (item, index) {
-                    html += printObject(item);
-                    if (index + 1 < object.length) {
-                        html += ', ';
-                    }
-                });
-                html += ']';
-            } else {
-                html += '<table>';
-                (0, _keys2.default)(object).forEach(function (key) {
-                    var valueHtml = printObject(object[key]);
-                    html += '<tr><td>' + key + ': </td><td>' + valueHtml + '</td></tr>';
-                });
-                html += '</table>';
-            }
-            break;
-        case 'boolean':
-        case 'number':
-            html += String(object);
-            break;
-        case 'string':
-            html += object.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            break;
-    }
-    return html;
-};
-
-var readBibPaste = function readBibPaste(event) {
-    document.getElementById('bib-db').innerHTML = '<div class="spinner"></div>';
-    document.getElementById('csl-db').innerHTML = '<div class="spinner"></div>';
-    document.getElementById('biblatex').innerHTML = '<div class="spinner"></div>';
-    var clipBoardText = event.clipboardData.getData('text');
-    setTimeout(function () {
-        importBiblatex(clipBoardText);
-    }, 500);
-};
-
-var readBibFile = function readBibFile() {
-    document.getElementById('bib-db').innerHTML = '<div class="spinner"></div>';
-    document.getElementById('csl-db').innerHTML = '<div class="spinner"></div>';
-    document.getElementById('biblatex').innerHTML = '<div class="spinner"></div>';
-    // Add timeout so that spinners are shown before processing of file starts.
-    setTimeout(function () {
-        var fileUpload = document.getElementById('file-upload');
-        if (fileUpload.files.length) {
-            var fr = new FileReader();
-            fr.onload = function (event) {
-                importBiblatex(event.target.result);
-            };
-            fr.readAsText(fileUpload.files[0]);
-        }
-    }, 500);
-};
-
-var importBiblatex = function importBiblatex(bibString) {
-    var t0 = performance.now();
-    var parser = new _src.BibLatexParser(bibString, {
-        processUnexpected: true,
-        processUnknown: {
-            collaborator: 'l_name'
-        }
-    });
-    var bibDB = parser.output;
-    if (parser.errors.length) {
-        console.log(parser.errors);
-    }
-    document.getElementById('bib-db').innerHTML = printObject(bibDB);
-    window.bibDB = bibDB;
-    exportCSL(bibDB);
-    exportBibLatex(bibDB);
-    var t1 = performance.now();
-    console.log('Total: ' + (t1 - t0) + ' milliseconds');
-};
-
-var exportCSL = function exportCSL(bibDB) {
-    var exporter = new _src.CSLExporter(bibDB);
-    var cslDB = exporter.output;
-    document.getElementById('csl-db').innerHTML = printObject(cslDB);
-};
-
-var exportBibLatex = function exportBibLatex(bibDB) {
-    var exporter = new _src.BibLatexExporter(bibDB);
-    var biblatex = exporter.output.split('\n').join('<br>');
-    document.getElementById('biblatex').innerHTML = biblatex;
-};
-
-document.getElementById('file-upload').addEventListener('change', readBibFile);
-document.getElementById('paste-input').addEventListener('paste', readBibPaste, false);
-
-},{"../src":138,"babel-runtime/core-js/object/keys":12,"babel-runtime/helpers/typeof":21}],2:[function(require,module,exports){
+},{"../src":138}],2:[function(require,module,exports){
 'use strict';
 
 var _slicedToArray2 = require('babel-runtime/helpers/slicedToArray');
