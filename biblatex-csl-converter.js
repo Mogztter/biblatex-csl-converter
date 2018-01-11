@@ -20667,7 +20667,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
                     cov_1nqd9talwx.b[19][1]++;
                 }
                 cov_1nqd9talwx.s[97]++;
-                if (['(', ',', '{', '}', ' ', '='].includes(this.input[this.pos])) {
+                if (['(', ')', ',', '{', '}', ' ', '=', '\t', '\n'].includes(this.input[this.pos])) {
                     cov_1nqd9talwx.b[20][0]++;
 
                     var key = (cov_1nqd9talwx.s[98]++, this.input.substring(start, this.pos));
