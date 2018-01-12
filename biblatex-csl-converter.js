@@ -395,7 +395,7 @@ function _interopRequireDefault(obj) {
 
   var grammar = {
     Lexer: undefined,
-    ParserRules: [{ "name": "edtf", "symbols": ["L0"], "postprocess": id }, { "name": "edtf", "symbols": ["L1"], "postprocess": id }, { "name": "edtf", "symbols": ["L2"], "postprocess": id }, { "name": "L0", "symbols": ["date_time"], "postprocess": id }, { "name": "L0", "symbols": ["century"], "postprocess": id }, { "name": "L0", "symbols": ["L0i"], "postprocess": id }, { "name": "L0i", "symbols": ["date_time", { "literal": "/" }, "date_time"], "postprocess": interval(0) }, { "name": "century", "symbols": ["positive_century"], "postprocess": function postprocess(data) {
+    ParserRules: [{ "name": "edtf", "symbols": ["L0"], "postprocess": id }, { "name": "edtf", "symbols": ["L1"], "postprocess": id }, { "name": "edtf", "symbols": ["L2"], "postprocess": id }, { "name": "edtf", "symbols": ["L3"], "postprocess": id }, { "name": "L0", "symbols": ["date_time"], "postprocess": id }, { "name": "L0", "symbols": ["century"], "postprocess": id }, { "name": "L0", "symbols": ["L0i"], "postprocess": id }, { "name": "L0i", "symbols": ["date_time", { "literal": "/" }, "date_time"], "postprocess": interval(0) }, { "name": "century", "symbols": ["positive_century"], "postprocess": function postprocess(data) {
         return century(data[0]);
       } }, { "name": "century$string$1", "symbols": [{ "literal": "0" }, { "literal": "0" }], "postprocess": function joiner(d) {
         return d.join('');
@@ -579,7 +579,7 @@ function _interopRequireDefault(obj) {
         return d.join('');
       } }, { "name": "consecutives", "symbols": ["year", "consecutives$string$3", "year"], "postprocess": function postprocess(d) {
         return [date([d[0]]), date([d[2]])];
-      } }, { "name": "digit", "symbols": ["positive_digit"], "postprocess": id }, { "name": "digit", "symbols": [{ "literal": "0" }], "postprocess": id }, { "name": "digits", "symbols": ["digit"], "postprocess": id }, { "name": "digits", "symbols": ["digits", "digit"], "postprocess": join }, { "name": "nd4", "symbols": ["d4"] }, { "name": "nd4", "symbols": [{ "literal": "-" }, "d4"], "postprocess": join }, { "name": "nd3", "symbols": ["d3"] }, { "name": "nd3", "symbols": [{ "literal": "-" }, "d3"], "postprocess": join }, { "name": "nd2", "symbols": ["d2"] }, { "name": "nd2", "symbols": [{ "literal": "-" }, "d2"], "postprocess": join }, { "name": "d4", "symbols": ["d2", "d2"], "postprocess": join }, { "name": "d3", "symbols": ["d2", "digit"], "postprocess": join }, { "name": "d2", "symbols": ["digit", "digit"], "postprocess": join }, { "name": "d5+", "symbols": ["positive_digit", "d3", "digits"], "postprocess": num }, { "name": "d1x", "symbols": [/[1-9X]/], "postprocess": id }, { "name": "dx", "symbols": ["d1x"], "postprocess": id }, { "name": "dx", "symbols": [{ "literal": "0" }], "postprocess": id }, { "name": "dx2", "symbols": ["dx", "dx"], "postprocess": join }, { "name": "dx4", "symbols": ["dx2", "dx2"], "postprocess": join }, { "name": "dx4", "symbols": [{ "literal": "-" }, "dx2", "dx2"], "postprocess": join }, { "name": "md", "symbols": ["m31"], "postprocess": id }, { "name": "md", "symbols": ["m30"], "postprocess": id }, { "name": "md$string$1", "symbols": [{ "literal": "0" }, { "literal": "2" }], "postprocess": function joiner(d) {
+      } }, { "name": "L3", "symbols": ["L3i"], "postprocess": id }, { "name": "L3i", "symbols": ["L3S", { "literal": "/" }, "L3S"], "postprocess": interval(3) }, { "name": "L3i", "symbols": ["L3S", { "literal": "/" }, "L3i_date"], "postprocess": interval(3) }, { "name": "L3i", "symbols": ["L3i_date", { "literal": "/" }, "L3S"], "postprocess": interval(3) }, { "name": "L3i_date", "symbols": ["date_time"], "postprocess": id }, { "name": "L3i_date", "symbols": ["L2i_date"], "postprocess": id }, { "name": "L3S", "symbols": ["L1S"], "postprocess": id }, { "name": "L3S", "symbols": ["L2S"], "postprocess": id }, { "name": "digit", "symbols": ["positive_digit"], "postprocess": id }, { "name": "digit", "symbols": [{ "literal": "0" }], "postprocess": id }, { "name": "digits", "symbols": ["digit"], "postprocess": id }, { "name": "digits", "symbols": ["digits", "digit"], "postprocess": join }, { "name": "nd4", "symbols": ["d4"] }, { "name": "nd4", "symbols": [{ "literal": "-" }, "d4"], "postprocess": join }, { "name": "nd3", "symbols": ["d3"] }, { "name": "nd3", "symbols": [{ "literal": "-" }, "d3"], "postprocess": join }, { "name": "nd2", "symbols": ["d2"] }, { "name": "nd2", "symbols": [{ "literal": "-" }, "d2"], "postprocess": join }, { "name": "d4", "symbols": ["d2", "d2"], "postprocess": join }, { "name": "d3", "symbols": ["d2", "digit"], "postprocess": join }, { "name": "d2", "symbols": ["digit", "digit"], "postprocess": join }, { "name": "d5+", "symbols": ["positive_digit", "d3", "digits"], "postprocess": num }, { "name": "d1x", "symbols": [/[1-9X]/], "postprocess": id }, { "name": "dx", "symbols": ["d1x"], "postprocess": id }, { "name": "dx", "symbols": [{ "literal": "0" }], "postprocess": id }, { "name": "dx2", "symbols": ["dx", "dx"], "postprocess": join }, { "name": "dx4", "symbols": ["dx2", "dx2"], "postprocess": join }, { "name": "dx4", "symbols": [{ "literal": "-" }, "dx2", "dx2"], "postprocess": join }, { "name": "md", "symbols": ["m31"], "postprocess": id }, { "name": "md", "symbols": ["m30"], "postprocess": id }, { "name": "md$string$1", "symbols": [{ "literal": "0" }, { "literal": "2" }], "postprocess": function joiner(d) {
         return d.join('');
       } }, { "name": "md", "symbols": ["md$string$1"], "postprocess": id }, { "name": "mx", "symbols": [{ "literal": "0" }, "d1x"], "postprocess": join }, { "name": "mx", "symbols": [/[1X]/, /[012X]/], "postprocess": join }, { "name": "m31x", "symbols": [/[0X]/, /[13578X]/], "postprocess": join }, { "name": "m31x", "symbols": [/[1X]/, /[02]/], "postprocess": join }, { "name": "m31x$string$1", "symbols": [{ "literal": "1" }, { "literal": "X" }], "postprocess": function joiner(d) {
         return d.join('');
@@ -643,16 +643,22 @@ function _interopRequireDefault(obj) {
 var nearley = require('nearley');
 var grammar = require('./grammar');
 
+var defaults = {
+  level: 2,
+  types: []
+};
+
 function byLevel(a, b) {
   return a.level < b.level ? -1 : a.level > b.level ? 1 : 0;
 }
 
-function limit(results, _ref) {
-  var level = _ref.level,
+function limit(results) {
+  var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : defaults,
+      level = _ref.level,
       types = _ref.types;
 
   if (!results.length) return results;
-  if (typeof level !== 'number') level = 2;
+  if (typeof level !== 'number') level = defaults.level;
 
   return results.filter(function (res) {
     return level >= res.level && (!types || types.includes(res.type));
@@ -668,6 +674,8 @@ function best(results) {
 }
 
 module.exports = {
+  defaults: defaults,
+
   parse: function parse(input) {
     var constraints = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
 
@@ -12199,7 +12207,7 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 var cov_1nqd9talwx = function () {
     var path = "/home/travis/build/fiduswriter/biblatex-csl-converter/src/import/biblatex.js",
-        hash = "17f53ce2ddb96df827a3864f9f21089158019b01",
+        hash = "78eaf5c1a2a05c13d85fcf64d6c883c85c9b9ec2",
         global = new Function('return this')(),
         gcv = "__coverage__",
         coverageData = {
@@ -13122,7 +13130,7 @@ var cov_1nqd9talwx = function () {
                 },
                 end: {
                     line: 234,
-                    column: 37
+                    column: 61
                 }
             },
             "92": {
@@ -20948,7 +20956,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
                 values.push(this.singleValue());
             }
             cov_1nqd9talwx.s[91]++;
-            return values.join("").trim();
+            return values.join("").replace(/[\t ]+/g, ' ').trim();
         }
     }, {
         key: "key",
