@@ -12199,7 +12199,7 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 var cov_1nqd9talwx = function () {
     var path = "/home/travis/build/fiduswriter/biblatex-csl-converter/src/import/biblatex.js",
-        hash = "99d6aba7520c8ae826a73fe218d0ea27952e6b57",
+        hash = "17f53ce2ddb96df827a3864f9f21089158019b01",
         global = new Function('return this')(),
         gcv = "__coverage__",
         coverageData = {
@@ -19059,6 +19059,39 @@ var cov_1nqd9talwx = function () {
             "63": {
                 loc: {
                     start: {
+                        line: 493,
+                        column: 24
+                    },
+                    end: {
+                        line: 493,
+                        column: 80
+                    }
+                },
+                type: "binary-expr",
+                locations: [{
+                    start: {
+                        line: 493,
+                        column: 24
+                    },
+                    end: {
+                        line: 493,
+                        column: 54
+                    }
+                }, {
+                    start: {
+                        line: 493,
+                        column: 58
+                    },
+                    end: {
+                        line: 493,
+                        column: 80
+                    }
+                }],
+                line: 493
+            },
+            "64": {
+                loc: {
+                    start: {
                         line: 531,
                         column: 8
                     },
@@ -19089,7 +19122,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 531
             },
-            "64": {
+            "65": {
                 loc: {
                     start: {
                         line: 531,
@@ -19122,7 +19155,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 531
             },
-            "65": {
+            "66": {
                 loc: {
                     start: {
                         line: 534,
@@ -19155,7 +19188,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 534
             },
-            "66": {
+            "67": {
                 loc: {
                     start: {
                         line: 535,
@@ -19188,7 +19221,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 535
             },
-            "67": {
+            "68": {
                 loc: {
                     start: {
                         line: 536,
@@ -19221,7 +19254,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 536
             },
-            "68": {
+            "69": {
                 loc: {
                     start: {
                         line: 543,
@@ -19254,7 +19287,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 543
             },
-            "69": {
+            "70": {
                 loc: {
                     start: {
                         line: 548,
@@ -19287,7 +19320,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 548
             },
-            "70": {
+            "71": {
                 loc: {
                     start: {
                         line: 583,
@@ -19320,7 +19353,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 583
             },
-            "71": {
+            "72": {
                 loc: {
                     start: {
                         line: 590,
@@ -19353,7 +19386,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 590
             },
-            "72": {
+            "73": {
                 loc: {
                     start: {
                         line: 613,
@@ -19386,7 +19419,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 613
             },
-            "73": {
+            "74": {
                 loc: {
                     start: {
                         line: 621,
@@ -19419,7 +19452,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 621
             },
-            "74": {
+            "75": {
                 loc: {
                     start: {
                         line: 640,
@@ -19452,7 +19485,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 640
             },
-            "75": {
+            "76": {
                 loc: {
                     start: {
                         line: 644,
@@ -19485,7 +19518,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 644
             },
-            "76": {
+            "77": {
                 loc: {
                     start: {
                         line: 671,
@@ -19518,7 +19551,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 671
             },
-            "77": {
+            "78": {
                 loc: {
                     start: {
                         line: 686,
@@ -19551,7 +19584,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 686
             },
-            "78": {
+            "79": {
                 loc: {
                     start: {
                         line: 689,
@@ -19584,7 +19617,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 689
             },
-            "79": {
+            "80": {
                 loc: {
                     start: {
                         line: 692,
@@ -19617,7 +19650,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 692
             },
-            "80": {
+            "81": {
                 loc: {
                     start: {
                         line: 699,
@@ -19650,7 +19683,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 699
             },
-            "81": {
+            "82": {
                 loc: {
                     start: {
                         line: 701,
@@ -19683,7 +19716,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 701
             },
-            "82": {
+            "83": {
                 loc: {
                     start: {
                         line: 703,
@@ -19716,7 +19749,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 703
             },
-            "83": {
+            "84": {
                 loc: {
                     start: {
                         line: 709,
@@ -19749,7 +19782,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 709
             },
-            "84": {
+            "85": {
                 loc: {
                     start: {
                         line: 717,
@@ -19782,7 +19815,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 717
             },
-            "85": {
+            "86": {
                 loc: {
                     start: {
                         line: 718,
@@ -19815,7 +19848,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 718
             },
-            "86": {
+            "87": {
                 loc: {
                     start: {
                         line: 722,
@@ -19848,7 +19881,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 722
             },
-            "87": {
+            "88": {
                 loc: {
                     start: {
                         line: 723,
@@ -19881,7 +19914,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 723
             },
-            "88": {
+            "89": {
                 loc: {
                     start: {
                         line: 735,
@@ -19914,7 +19947,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 735
             },
-            "89": {
+            "90": {
                 loc: {
                     start: {
                         line: 735,
@@ -19947,7 +19980,7 @@ var cov_1nqd9talwx = function () {
                 }],
                 line: 735
             },
-            "90": {
+            "91": {
                 loc: {
                     start: {
                         line: 741,
@@ -20475,7 +20508,8 @@ var cov_1nqd9talwx = function () {
             "87": [0, 0],
             "88": [0, 0],
             "89": [0, 0],
-            "90": [0, 0]
+            "90": [0, 0],
+            "91": [0, 0]
         },
         _coverageSchema: "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c"
     },
@@ -21462,7 +21496,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
                         cov_1nqd9talwx.b[59][7]++;
                         cov_1nqd9talwx.s[224]++;
 
-                        if (_this._checkURI(fValue)) {
+                        if ((cov_1nqd9talwx.b[63][0]++, _this.config.processInvalidURIs) || (cov_1nqd9talwx.b[63][1]++, _this._checkURI(fValue))) {
                             cov_1nqd9talwx.b[62][0]++;
                             cov_1nqd9talwx.s[225]++;
 
@@ -21551,33 +21585,33 @@ var BibLatexParser = exports.BibLatexParser = function () {
             var keyValue = (cov_1nqd9talwx.s[243]++, keyString.trim().toLowerCase());
             var fieldType = (cov_1nqd9talwx.s[244]++, _const.BibFieldTypes[fKey]);
             cov_1nqd9talwx.s[245]++;
-            if ((cov_1nqd9talwx.b[64][0]++, _const2.BiblatexAliasOptions[fKey]) && (cov_1nqd9talwx.b[64][1]++, _const2.BiblatexAliasOptions[fKey][keyValue])) {
-                cov_1nqd9talwx.b[63][0]++;
+            if ((cov_1nqd9talwx.b[65][0]++, _const2.BiblatexAliasOptions[fKey]) && (cov_1nqd9talwx.b[65][1]++, _const2.BiblatexAliasOptions[fKey][keyValue])) {
+                cov_1nqd9talwx.b[64][0]++;
                 cov_1nqd9talwx.s[246]++;
 
                 keyValue = _const2.BiblatexAliasOptions[fKey][keyValue];
             } else {
-                cov_1nqd9talwx.b[63][1]++;
+                cov_1nqd9talwx.b[64][1]++;
             }
             cov_1nqd9talwx.s[247]++;
             if (fieldType['options']) {
-                cov_1nqd9talwx.b[65][0]++;
+                cov_1nqd9talwx.b[66][0]++;
                 cov_1nqd9talwx.s[248]++;
 
                 if (Array.isArray(fieldType['options'])) {
-                    cov_1nqd9talwx.b[66][0]++;
+                    cov_1nqd9talwx.b[67][0]++;
                     cov_1nqd9talwx.s[249]++;
 
                     if (fieldType['options'].includes(keyValue)) {
-                        cov_1nqd9talwx.b[67][0]++;
+                        cov_1nqd9talwx.b[68][0]++;
                         cov_1nqd9talwx.s[250]++;
 
                         return keyValue;
                     } else {
-                        cov_1nqd9talwx.b[67][1]++;
+                        cov_1nqd9talwx.b[68][1]++;
                     }
                 } else {
-                    cov_1nqd9talwx.b[66][1]++;
+                    cov_1nqd9talwx.b[67][1]++;
 
                     var optionValue = (cov_1nqd9talwx.s[251]++, (0, _keys2.default)(fieldType['options']).find(function (key) {
                         cov_1nqd9talwx.f[22]++;
@@ -21587,20 +21621,20 @@ var BibLatexParser = exports.BibLatexParser = function () {
                     }));
                     cov_1nqd9talwx.s[253]++;
                     if (optionValue) {
-                        cov_1nqd9talwx.b[68][0]++;
+                        cov_1nqd9talwx.b[69][0]++;
                         cov_1nqd9talwx.s[254]++;
 
                         return optionValue;
                     } else {
-                        cov_1nqd9talwx.b[68][1]++;
+                        cov_1nqd9talwx.b[69][1]++;
                     }
                 }
             } else {
-                cov_1nqd9talwx.b[65][1]++;
+                cov_1nqd9talwx.b[66][1]++;
             }
             cov_1nqd9talwx.s[255]++;
             if (fieldType.strict) {
-                cov_1nqd9talwx.b[69][0]++;
+                cov_1nqd9talwx.b[70][0]++;
                 cov_1nqd9talwx.s[256]++;
 
                 this.warnings.push({
@@ -21612,7 +21646,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
                 cov_1nqd9talwx.s[257]++;
                 return false;
             } else {
-                cov_1nqd9talwx.b[69][1]++;
+                cov_1nqd9talwx.b[70][1]++;
             }
             cov_1nqd9talwx.s[258]++;
             return this._reformLiteral(keyString);
@@ -21666,23 +21700,23 @@ var BibLatexParser = exports.BibLatexParser = function () {
                 var parts = (cov_1nqd9talwx.s[266]++, string.split('--'));
                 cov_1nqd9talwx.s[267]++;
                 if (parts.length > 1) {
-                    cov_1nqd9talwx.b[70][0]++;
+                    cov_1nqd9talwx.b[71][0]++;
                     cov_1nqd9talwx.s[268]++;
 
                     return [_this2._reformLiteral(parts.shift().trim()), _this2._reformLiteral(parts.join('--').trim())];
                 } else {
-                    cov_1nqd9talwx.b[70][1]++;
+                    cov_1nqd9talwx.b[71][1]++;
                     cov_1nqd9talwx.s[269]++;
 
                     parts = string.split('-');
                     cov_1nqd9talwx.s[270]++;
                     if (parts.length > 1) {
-                        cov_1nqd9talwx.b[71][0]++;
+                        cov_1nqd9talwx.b[72][0]++;
                         cov_1nqd9talwx.s[271]++;
 
                         return [_this2._reformLiteral(parts.shift().trim()), _this2._reformLiteral(parts.join('-').trim())];
                     } else {
-                        cov_1nqd9talwx.b[71][1]++;
+                        cov_1nqd9talwx.b[72][1]++;
                         cov_1nqd9talwx.s[272]++;
 
                         return [_this2._reformLiteral(string.trim())];
@@ -21715,12 +21749,12 @@ var BibLatexParser = exports.BibLatexParser = function () {
             var biblatexType = (cov_1nqd9talwx.s[276]++, this.currentType);
             cov_1nqd9talwx.s[277]++;
             if (_const2.BiblatexAliasTypes[biblatexType]) {
-                cov_1nqd9talwx.b[72][0]++;
+                cov_1nqd9talwx.b[73][0]++;
                 cov_1nqd9talwx.s[278]++;
 
                 biblatexType = _const2.BiblatexAliasTypes[biblatexType];
             } else {
-                cov_1nqd9talwx.b[72][1]++;
+                cov_1nqd9talwx.b[73][1]++;
             }
 
             var bibType = (cov_1nqd9talwx.s[279]++, (0, _keys2.default)(_const.BibTypes).find(function (bType) {
@@ -21732,7 +21766,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
 
             cov_1nqd9talwx.s[281]++;
             if (typeof bibType === 'undefined') {
-                cov_1nqd9talwx.b[73][0]++;
+                cov_1nqd9talwx.b[74][0]++;
                 cov_1nqd9talwx.s[282]++;
 
                 this.warnings.push({
@@ -21742,7 +21776,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
                 cov_1nqd9talwx.s[283]++;
                 bibType = 'misc';
             } else {
-                cov_1nqd9talwx.b[73][1]++;
+                cov_1nqd9talwx.b[74][1]++;
             }
 
             cov_1nqd9talwx.s[284]++;
@@ -21765,23 +21799,23 @@ var BibLatexParser = exports.BibLatexParser = function () {
             this.entries.push(this.currentEntry);
             cov_1nqd9talwx.s[288]++;
             if (this.currentEntry['entry_key'] !== null) {
-                cov_1nqd9talwx.b[74][0]++;
+                cov_1nqd9talwx.b[75][0]++;
                 cov_1nqd9talwx.s[289]++;
 
                 this.match(",");
             } else {
-                cov_1nqd9talwx.b[74][1]++;
+                cov_1nqd9talwx.b[75][1]++;
             }
             cov_1nqd9talwx.s[290]++;
             this.keyValueList();
             cov_1nqd9talwx.s[291]++;
             if (this.currentEntry['entry_key'] === null) {
-                cov_1nqd9talwx.b[75][0]++;
+                cov_1nqd9talwx.b[76][0]++;
                 cov_1nqd9talwx.s[292]++;
 
                 this.currentEntry['entry_key'] = '';
             } else {
-                cov_1nqd9talwx.b[75][1]++;
+                cov_1nqd9talwx.b[76][1]++;
             }
             cov_1nqd9talwx.s[293]++;
             this.processFields();
@@ -21825,7 +21859,7 @@ var BibLatexParser = exports.BibLatexParser = function () {
             cov_1nqd9talwx.s[302]++;
             for (var i = 0; i < len; i++) {
                 var texChar = (cov_1nqd9talwx.s[303]++, _const2.TeXSpecialChars[i]);
-                var texCharRe = (cov_1nqd9talwx.s[304]++, /^[a-zA-Z\\]+$/.test(texChar[0]) ? (cov_1nqd9talwx.b[76][0]++, new RegExp("{(" + texChar[0] + ")}|" + texChar[0] + "\\s|" + texChar[0] + "(?=\\W|\\_)", 'g')) : (cov_1nqd9talwx.b[76][1]++, new RegExp("{(" + texChar[0] + ")}|" + texChar[0] + "{}|" + texChar[0], 'g')));
+                var texCharRe = (cov_1nqd9talwx.s[304]++, /^[a-zA-Z\\]+$/.test(texChar[0]) ? (cov_1nqd9talwx.b[77][0]++, new RegExp("{(" + texChar[0] + ")}|" + texChar[0] + "\\s|" + texChar[0] + "(?=\\W|\\_)", 'g')) : (cov_1nqd9talwx.b[77][1]++, new RegExp("{(" + texChar[0] + ")}|" + texChar[0] + "{}|" + texChar[0], 'g')));
                 cov_1nqd9talwx.s[305]++;
                 value = value.replace(texCharRe, texChar[1]);
             }
@@ -21847,32 +21881,32 @@ var BibLatexParser = exports.BibLatexParser = function () {
 
                 cov_1nqd9talwx.s[310]++;
                 if (this.tryMatch("{")) {
-                    cov_1nqd9talwx.b[77][0]++;
+                    cov_1nqd9talwx.b[78][0]++;
                     cov_1nqd9talwx.s[311]++;
 
                     this.match("{");
                     cov_1nqd9talwx.s[312]++;
                     closer = '}';
                 } else {
-                        cov_1nqd9talwx.b[77][1]++;
+                        cov_1nqd9talwx.b[78][1]++;
                         cov_1nqd9talwx.s[313]++;
                         if (this.tryMatch("(")) {
-                            cov_1nqd9talwx.b[78][0]++;
+                            cov_1nqd9talwx.b[79][0]++;
                             cov_1nqd9talwx.s[314]++;
                             // apparently, references can also be surrended with round braces
                             this.match("(");
                             cov_1nqd9talwx.s[315]++;
                             closer = ')';
                         } else {
-                                cov_1nqd9talwx.b[78][1]++;
+                                cov_1nqd9talwx.b[79][1]++;
                                 cov_1nqd9talwx.s[316]++;
                                 if (d === "@comment") {
-                                    cov_1nqd9talwx.b[79][0]++;
+                                    cov_1nqd9talwx.b[80][0]++;
                                     cov_1nqd9talwx.s[317]++;
                                     // braceless comments are a thing it appears
                                     closer = null;
                                 } else {
-                                    cov_1nqd9talwx.b[79][1]++;
+                                    cov_1nqd9talwx.b[80][1]++;
                                     cov_1nqd9talwx.s[318]++;
 
                                     this.match("{");
@@ -21882,28 +21916,28 @@ var BibLatexParser = exports.BibLatexParser = function () {
                             }
                     }cov_1nqd9talwx.s[320]++;
                 if (d == "@string") {
-                    cov_1nqd9talwx.b[80][0]++;
+                    cov_1nqd9talwx.b[81][0]++;
                     cov_1nqd9talwx.s[321]++;
 
                     this.string();
                 } else {
-                        cov_1nqd9talwx.b[80][1]++;
+                        cov_1nqd9talwx.b[81][1]++;
                         cov_1nqd9talwx.s[322]++;
                         if (d == "@preamble") {
-                            cov_1nqd9talwx.b[81][0]++;
+                            cov_1nqd9talwx.b[82][0]++;
                             cov_1nqd9talwx.s[323]++;
 
                             this.preamble();
                         } else {
-                                cov_1nqd9talwx.b[81][1]++;
+                                cov_1nqd9talwx.b[82][1]++;
                                 cov_1nqd9talwx.s[324]++;
                                 if (d == "@comment") {
-                                    cov_1nqd9talwx.b[82][0]++;
+                                    cov_1nqd9talwx.b[83][0]++;
                                     cov_1nqd9talwx.s[325]++;
 
                                     this.parseComment(!closer);
                                 } else {
-                                    cov_1nqd9talwx.b[82][1]++;
+                                    cov_1nqd9talwx.b[83][1]++;
                                     cov_1nqd9talwx.s[326]++;
 
                                     this.createNewEntry();
@@ -21911,11 +21945,11 @@ var BibLatexParser = exports.BibLatexParser = function () {
                             }
                     }cov_1nqd9talwx.s[327]++;
                 if (closer) {
-                        cov_1nqd9talwx.b[83][0]++;
+                        cov_1nqd9talwx.b[84][0]++;
                         cov_1nqd9talwx.s[328]++;
                         this.match(closer);
                     } else {
-                    cov_1nqd9talwx.b[83][1]++;
+                    cov_1nqd9talwx.b[84][1]++;
                 }
             }
         }
@@ -21929,31 +21963,31 @@ var BibLatexParser = exports.BibLatexParser = function () {
 
             cov_1nqd9talwx.s[331]++;
             if (braceless) {
-                cov_1nqd9talwx.b[84][0]++;
+                cov_1nqd9talwx.b[85][0]++;
                 cov_1nqd9talwx.s[332]++;
 
-                while ((cov_1nqd9talwx.b[85][0]++, this.input.length > this.pos) && (cov_1nqd9talwx.b[85][1]++, this.input[this.pos] != '\n')) {
+                while ((cov_1nqd9talwx.b[86][0]++, this.input.length > this.pos) && (cov_1nqd9talwx.b[86][1]++, this.input[this.pos] != '\n')) {
                     cov_1nqd9talwx.s[333]++;
 
                     this.pos++;
                 }
             } else {
-                cov_1nqd9talwx.b[84][1]++;
+                cov_1nqd9talwx.b[85][1]++;
                 cov_1nqd9talwx.s[334]++;
 
-                while ((cov_1nqd9talwx.b[86][0]++, this.input.length > this.pos) && (cov_1nqd9talwx.b[86][1]++, braces > 0)) {
+                while ((cov_1nqd9talwx.b[87][0]++, this.input.length > this.pos) && (cov_1nqd9talwx.b[87][1]++, braces > 0)) {
                     cov_1nqd9talwx.s[335]++;
 
                     switch (this.input[this.pos]) {
                         case '{':
-                            cov_1nqd9talwx.b[87][0]++;
+                            cov_1nqd9talwx.b[88][0]++;
                             cov_1nqd9talwx.s[336]++;
 
                             braces += 1;
                             cov_1nqd9talwx.s[337]++;
                             break;
                         case '}':
-                            cov_1nqd9talwx.b[87][1]++;
+                            cov_1nqd9talwx.b[88][1]++;
                             cov_1nqd9talwx.s[338]++;
 
                             braces -= 1;
@@ -21965,12 +21999,12 @@ var BibLatexParser = exports.BibLatexParser = function () {
 
             // no ending brace found
             cov_1nqd9talwx.s[340]++;
-            if ((cov_1nqd9talwx.b[89][0]++, braceless) || (cov_1nqd9talwx.b[89][1]++, braces !== 0)) {
-                cov_1nqd9talwx.b[88][0]++;
+            if ((cov_1nqd9talwx.b[90][0]++, braceless) || (cov_1nqd9talwx.b[90][1]++, braces !== 0)) {
+                cov_1nqd9talwx.b[89][0]++;
                 cov_1nqd9talwx.s[341]++;
                 return;
             } else {
-                cov_1nqd9talwx.b[88][1]++;
+                cov_1nqd9talwx.b[89][1]++;
             }
 
             // leave the ending brace for the main parser to pick up
@@ -21981,12 +22015,12 @@ var BibLatexParser = exports.BibLatexParser = function () {
             this.groupParser.checkString(comment);
             cov_1nqd9talwx.s[345]++;
             if (this.groupParser.groups) {
-                cov_1nqd9talwx.b[90][0]++;
+                cov_1nqd9talwx.b[91][0]++;
                 cov_1nqd9talwx.s[346]++;
 
                 this.groups = this.groupParser.groups;
             } else {
-                cov_1nqd9talwx.b[90][1]++;
+                cov_1nqd9talwx.b[91][1]++;
             }
         }
     }, {
