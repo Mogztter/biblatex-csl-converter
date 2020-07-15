@@ -47,6 +47,7 @@
     "flow": "flow"
   },
   "devDependencies": {
+    "@babel/compat-data": "^7.10.5",
     "@babel/core": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/polyfill": "^7.10.4",
